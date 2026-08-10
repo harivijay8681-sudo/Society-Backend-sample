@@ -46,7 +46,7 @@ pipeline {
             steps {
                 sh '''
                     sudo systemctl restart gunicorn
-                    sudo systemctl status gunicorn --no-pager
+                    sudo systemctl status gunicorn
                 '''
             }
         }
