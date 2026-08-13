@@ -46,3 +46,5 @@ gunicorn apartment_backend.wsgi:application --bind 0.0.0.0:8000
 ```
 
 Then point Nginx to proxy requests to `127.0.0.1:8000`.
+
+Jenkins manual test
